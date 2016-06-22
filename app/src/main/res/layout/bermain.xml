@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/lencu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LENCU"
+        android:layout_gravity=""
+        android:background="#ff6969"
+
+        />
+
+    <TextView
+        android:id="@+id/kamu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LENCU"
+        android:gravity="center_horizontal"
+        android:background="#fff29c"
+
+        />
+    <TextView
+        android:id="@+id/a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LENCU"
+        android:gravity="center_horizontal"
+        android:background="#efffec"
+
+        />
+    <TextView
+        android:id="@+id/b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LENCU"
+        android:gravity="center_horizontal"
+        android:background="#97ffcd"
+
+        />
+    <TextView
+        android:id="@+id/c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LENCU"
+        android:gravity="center_horizontal"
+        android:background="#a29cf5"
+
+        />
+    <TextView
+        android:id="@+id/d"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LENCU"
+        android:gravity="center_horizontal"
+        android:background="#d8ffb3f9"
+
+        />
+    <TextView
+        android:id="@+id/e"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LENCU"
+        android:gravity="center_horizontal"
+        android:background="#e2e0e0"
+
+        />
+    <TextView
+        android:id="@+id/f"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LENCU"
+        android:gravity="center_horizontal"
+        android:background="#677fb7"
+
+         />
+    <TextView
+        android:id="@+id/g"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LENCU"
+        android:gravity="center_horizontal"
+        android:background="#e2e0e0"
+
+        />
+
+</LinearLayout>
