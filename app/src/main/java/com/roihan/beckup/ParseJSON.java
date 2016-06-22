@@ -13,9 +13,9 @@ public class ParseJSON {
     public static String[] emails;
 
     public static final String JSON_ARRAY = "result";
-    public static final String KEY_ID = "id";
-    public static final String KEY_NAME = "name";
-    public static final String KEY_EMAIL = "email";
+    public static final String KEY_ID = "login";
+    public static final String KEY_NAME = "id";
+    public static final String KEY_EMAIL = "url";
 
     private JSONArray users = null;
 
@@ -28,9 +28,8 @@ public class ParseJSON {
     protected void parseJSON(){
         JSONObject jsonObject=null;
         try {
-            jsonObject = new JSONObject(json);
-            users = jsonObject.getJSONArray(JSON_ARRAY);
 
+            users = new JSONArray(json);
             ids = new String[users.length()];
             names = new String[users.length()];
             emails = new String[users.length()];
